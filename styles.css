@@ -1,0 +1,415 @@
+@import url('https://cdn-uicons.flaticon.com/2.6.0/uicons-thin-rounded/css/uicons-thin-rounded.css');
+@import url('https://cdn-uicons.flaticon.com/2.6.0/uicons-brands/css/uicons-brands.css');
+@import url('https://cdn-uicons.flaticon.com/2.6.0/uicons-regular-rounded/css/uicons-regular-rounded.css');
+html,body{
+    margin: 0;
+    padding: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4), -2px -2px 4px rgba(0, 0, 0, 0.4);
+    scroll-behavior: smooth;
+
+}
+h1,h2,h3,h4{
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+
+/* MAIN SECTION */
+#main-section{
+    width: 100%;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    background-image: url(truck.jpg);
+    background-position: center 5%;
+    background-size: cover;
+}
+    #main-section-top{
+        width: 80%;
+        height: 20%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+    }
+        #main-logo-container{
+            width: 50%;
+            height: 90%;
+        }
+            #site-header-box{
+                width: 80%;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+                #site-header{
+                    font-size: 50px;
+                    text-decoration:double;
+                }
+        #nav-bar-container{
+            width: 50%;
+            height: 90%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: row;
+        }
+            #nav-bar-left{
+                width: 60%;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: row;
+                gap: 10%;
+            }
+                .nav-buttons{
+                    width: 100px;
+                    height: 75px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    color: white;
+                    background-color: rgba(0, 0, 0, 0.733);
+                    font-weight: bold;
+                    cursor: pointer;
+                    transition: 1.1s;
+                    border: 1px solid white;
+                    border-radius: 5px;
+                }
+                    .nav-buttons:hover{
+                        transform: scale(1.1);
+                    }
+            #nav-bar-right{
+                width: 40%;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: row;
+                gap: 10%;
+            }
+                .small-nav-buttons{
+                    width: 100px;
+                    height: 75px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    color: white;
+                    background-color: rgba(0, 0, 0, 0.685);
+                    font-size: 30px;
+                }
+                    #icons{
+                        color: white;
+                        font-size: 40px;
+                        cursor: pointer;
+                    }
+    #main-section-bottom{
+        width: 80%;
+        height: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+        #big-logo-container{
+            width: 60%;
+            height: 70%;
+            display: flex;
+            align-items: end;
+            justify-content: center;
+
+/*
+            background-image: url(backhoe.jpg);
+            background-position: center;
+            background-size: cover;
+            */
+        }
+            #big-logo{
+                width: auto;
+                height: 100%;
+            }
+        #logo-title{
+            width: 60%;
+            height: 10%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+            #title{
+                font-size: 35px;
+                color: white;
+            }
+
+
+/* FORM SECTION */
+#form-section{
+    width: 100%;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+    #form-section-top{
+        width: 80%;
+        height: 20%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+        #load-header-box{
+            width: 50%;
+            height: 80%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+            #load-header{
+                color: black;
+                box-shadow: none;
+            }
+    #form-section-bottom{
+        width: 80%;
+        height: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+    }
+        #form-section-left{
+            width: 50%;
+            height: 90%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            background-image: url(steering-wheel.jpg);
+            background-position: center 80%;
+            background-size: cover;
+        }
+        #form-section-right{
+            width: 50%;
+            height: 90%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+        }
+            /* styles.css */
+
+
+.form-container {
+    width: 50%;
+    margin: 50px auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    color: black;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: black;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-size: 16px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button.submit-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+}
+
+button.submit-btn:hover {
+    background-color: #45a049;
+}
+
+
+
+/* BOTTOM SECTION */
+#bottom-section{
+    width: 100%;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: black;
+
+    border: 1px solid black;
+}
+    #bottom-section-top{
+        width: 100%;
+        height: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+
+    }
+        #contact-button-box{
+            width: 25%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            gap: 10%;
+        }
+            #contact-buttons{
+                color: white;
+                cursor: pointer;
+                font-size: 40px;
+            }
+        #socials-button-box{
+            width: 25%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            gap: 10%;
+        }
+            #socials{
+                color: white;
+                cursor: pointer;
+                font-size: 40px;
+            }
+                #instagram, #google{
+                    display: none;
+                }
+        #map-container{
+            width: 50%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+            #map-box{
+                width: 75%;
+                height: 90%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                border: 1px solid white;
+
+            }
+                #map{
+                    width: 100%;
+                    height: 100%;
+                }
+    #bottom-section-bottom{
+        width: 100%;
+        height: 10%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+        #trademark{
+            font-size: 20px;
+        }
+
+
+/* MOBILE REPSONSE */
+@media (max-width: 768px) {
+    /* MAIN SECTION */
+    #main-section-top{
+        flex-direction: column;
+    }
+        #main-logo-container{
+            width: 100%;
+            height: 50%;
+            margin-top: 25px;
+            margin-bottom: 25px;
+        }
+            #site-header-box{
+                width: 100%;
+                height: 100%;
+                text-align: center;
+            }
+            #site-header{
+                font-size: 30px;
+                color: black;
+                text-shadow: none;
+            }
+        #nav-bar-container{
+            width: 100%;
+            height: 50%;
+            flex-direction: column;
+        }
+            .nav-buttons{
+                width: 75px;
+                height: 40px;
+                font-size: 13px;
+            }
+            #nav-bar-right{
+                margin-top: 15px;
+            }
+            .small-nav-buttons{
+                font-size: 20px;
+            }
+
+        #logo-title{
+            text-align: center;
+        }
+
+
+    /* SERVICE SECTION */
+    #service-card-container{
+        flex-direction: column;
+    }
+    #service-bottom{
+        height: 80%;
+    }
+        .service-cards{
+            width: 80%;
+            height: 50%;
+        }
+
+    #service-hidden-container{
+        display: none;
+    }
+    /* FORM SECTION */
+    #load-header-box{
+        width: 100%;
+    }
+    #load-header{
+        font-size: 20px;
+    }
+    #form-section-left{
+        display: none;
+    }
+  }
