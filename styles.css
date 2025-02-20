@@ -6,6 +6,7 @@ html,body{
     padding: 0;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4), -2px -2px 4px rgba(0, 0, 0, 0.4);
     scroll-behavior: smooth;
+    text-shadow: none;
 
 }
 h1,h2,h3,h4{
